@@ -13,4 +13,4 @@ USER 1001
 
 RUN ./mvnw package
 
-ENTRYPOINT ["java","-jar","/usr/src/app/target/sboot-demo.0.0.1.jar"]
+ENTRYPOINT ["java","-jar","/usr/src/app/target/sboot-demo-0.0.1.jar"]
