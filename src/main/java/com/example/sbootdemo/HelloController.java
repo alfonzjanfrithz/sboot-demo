@@ -15,7 +15,7 @@ public class HelloController {
     public ResponseEntity getDemo() {
 
         Map<String, String> map = new HashMap<>();
-        map.put("hello", "world");
+        map.put("hello", "dunia");
 
         return ResponseEntity.ok(map);
     }
